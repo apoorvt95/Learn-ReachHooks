@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import UseStateComponent from './UseStateComponent';
 import UseEffectComponent from './UseEffectComponent';
+import UseReducerComponent from './useReducerComponent';
 
 class App extends Component {
   render() {
@@ -9,6 +10,7 @@ class App extends Component {
         <h1 style={{textAlign: 'center'}}>Learning Hooks!</h1>
         <UseStateComponent />
         <UseEffectComponent />
+        <UseReducerComponent />
       </div>
     );
   }
